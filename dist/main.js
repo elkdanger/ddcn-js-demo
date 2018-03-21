@@ -79,7 +79,7 @@
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _logger__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./logger */ \"./src/logger.js\");\n\n\n_logger__WEBPACK_IMPORTED_MODULE_0__[\"default\"].log('Hello, developers!');\n\n//# sourceURL=webpack:///./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _logger__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./logger */ \"./src/logger.js\");\n\n\nnew _logger__WEBPACK_IMPORTED_MODULE_0__[\"default\"]().log('Hello');\n\n//# sourceURL=webpack:///./src/index.js?");
 
 /***/ }),
 
@@ -91,7 +91,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _log
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"default\", function() { return log; });\n\nfunction log(msg) {\n    console.log(msg);\n}\n\n//# sourceURL=webpack:///./src/logger.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"default\", function() { return Logger; });\n\nclass Logger {\n    log(msg) {\n        console.log(msg)\n    }\n}\n\n//# sourceURL=webpack:///./src/logger.js?");
 
 /***/ })
 

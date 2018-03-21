@@ -1,4 +1,6 @@
 
-export default function log(msg) {
-    console.log(msg);
+export default class Logger {
+    log(msg) {
+        console.log(msg)
+    }
 }
